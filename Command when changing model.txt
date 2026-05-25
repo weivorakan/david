@@ -1,2 +1,0 @@
-ข้อความสำหรับการสรุป "บริบทการคุยล่าสุด" (Conversation Context) เมื่อต้องเปลี่ยนรุ่น AI Model (แต่ใช้สมอง faiss เดิม)
-"Summarize our current progress and key objectives of Project David in concise bullet points so I can provide this context to a new assistant model."

@@ -1,5 +1,0 @@
-คำสั่งเช็ค Fonts ไทยทั้งหมดที่มีอยู่ใน Ubuntu
-fc-list ":lang=th" family
-
-เช็คเฉพาะ Family ตัวอย่างเช่น Segoe UI family
-fc-list : family | grep -i segoe 

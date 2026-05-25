@@ -1,7 +1,0 @@
-From the chart of [image:XAUUSD_260428_Tuesday], can you see any wedge top in this chart? If yes, specify the bar numbers which indicate the high of three bars in wedge top pattern. David, I recommend you to look at the OHLC data to evaluate the validity of wedge top pattern.
-
-Look at Image 1, [image:XAUUSD_2026-04-28_23-47-14_17d08]. Does it show a Wedge Top pattern? Answer only YES or NO.
-
-20:25
-21:36
-20:31

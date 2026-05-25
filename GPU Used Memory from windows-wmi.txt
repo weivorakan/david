@@ -1,7 +1,0 @@
-วิธีดึง GPU Used Memory จาก windows_wmi
-รัน PowerShell (Administrator)
-
-Set-Item WSMan:\localhost\Client\TrustedHosts -Value "192.168.0.102" -Force; $u="192.168.0.102\Shangbin"; $p="Shangbin7"; $secp=ConvertTo-SecureString $p -AsPlainText -Force; $c=New-Object System.Management.Automation.PSCredential($u,$secp); Invoke-Command -ComputerName 192.168.0.102 -Credential $c -ScriptBlock { while($true) { $m = Get-CimInstance Win32_PerfFormattedData_GPUPerformanceCounters_GPUAdapterMemory; $ut = (Get-CimInstance Win32_PerfFormattedData_GPUPerformanceCounters_GPUEngine | Measure-Object UtilizationPercentage -Max).Maximum; $dv = ($m.DedicatedUsage | Measure-Object -Sum).Sum; $sv = ($m.SharedUsage | Measure-Object -Sum).Sum; Clear-Host; Write-Host "--- David Performance Monitoring (Press Ctrl+C to Stop) ---" -ForegroundColor Cyan; [PSCustomObject]@{ 'Util(%)'=$ut; 'VRAM(MB)'=[math]::Round($dv/1MB); 'Shared_RAM(MB)'=[math]::Round($sv/1MB) } | Format-Table -AutoSize; Start-Sleep -Seconds 1 } }
-
-
-$dt = Get-Date -Format "yyMMdd_HHmm"; python david_server.py 2>&1 | tee "c:/david/david_server_log/david_server_log_$dt.log"
