@@ -1,0 +1,49 @@
+[QUESTION_FROM_WEI]:
+What is High 2?
+
+[DAVID_ANALYSIS]:
+**Internal Monologue:**
+
+To answer Wei's question "What is High 2?", I will synthesize information from the provided theoretical excerpts. 
+
+1.  **Identify the core definition:** I'll look for the bar-by-bar mechanics. The text states a High 1 is a bar with a high above the prior bar. A High 2 occurs if there is a bar with a lower high following that High 1, and then a subsequent bar's high goes above the prior bar's high.
+2.  **Identify the structural meaning:** I'll note that a High 2 represents the "ending of the second leg" of a correction or pullback.
+3.  **Identify the context/requirements for a valid setup:** I need to include that a High 2 alone is not a complete setup; it requires "earlier strength" (like a strong bull trend bar or a high 1 leg breaking a trend line). I also need to mention the importance of a tiny trend line break between the High 1 and High 2 to show trend traders are still active.
+4.  **Identify the application in different market states:** I will note its use in a bull trend (as a with-trend setup) and in a trading range (as a buy signal at the bottom of the range).
+5.  **Identify the failure/evolution aspect:** I'll include what happens if the High 2 fails (the price trades below the signal bar's low), leading to a High 3 or High 4 setup.
+
+I have all the necessary components to provide a comprehensive answer based strictly on the provided Al Brooks methodology.
+
+***
+
+Based on the Al Brooks Price Action methodology, a **High 2** is a specific type of pullback setup used primarily in bull trends or at the bottom of a trading range. Here is the detailed breakdown:
+
+### 1. The Bar-by-Bar Mechanics
+A High 2 is defined by a specific sequence of price action during a correction:
+*   **High 1:** First, there is a **High 1**, which is a bar with a high above the high of the prior bar (occurring during a bull flag or near the bottom of a trading range).
+*   **The Intermediate Bar:** Following the High 1, there is a bar (or several) that forms a **lower high**.
+*   **High 2:** The next bar whose high is above the high of that prior "lower high" bar completes the **High 2** pattern.
+
+### 2. Structural Meaning
+A High 2 represents the **end of the second leg** of a correction. While a High 1 represents the first attempt by bulls to resume the trend, the High 2 represents the second attempt after the first attempt (the High 1) failed to sustain the move.
+
+### 3. Requirements for a High-Quality Setup
+A High 2 is not a guaranteed buy signal on its own. For it to be a reliable "with-trend" setup, the following context is necessary:
+*   **Prior Strength:** There must be evidence of earlier strength, such as a strong bull trend bar or a High 1 leg that breaks a trend line.
+*   **Trend Line Break:** Ideally, there should be at least a tiny trend line break between the High 1 and the High 2 to indicate that trend traders are still active in the market.
+*   **Avoid "Bad" Setups:** A High 2 is a poor setup if the preceding bars are almost entirely bear bars (e.g., five out of six prior bars being bear bars), as this suggests the momentum has shifted too heavily toward the bears.
+
+### 4. Contextual Application
+*   **In a Bull Trend:** It is one of the most reliable with-trend setups, signaling the end of a pullback.
+*   **In a Trading Range:** It can be a buy signal, but specifically when it occurs at the **bottom of the range**, rather than near the top.
+
+### 5. Failure and Evolution
+If a High 2 forms but the market fails to reverse upward—specifically, if a bar trades below the low of the High 2 signal bar—the pattern has failed. In this case, the downward correction is likely to continue, and traders will look for the pattern to evolve into a **High 3** (a wedge variant) or a **High 4** pullback.
+
+[FINAL_ANALYSIS]:
+**Internal Monologue:**
+
+The user has validated my analysis of the "High 2" pattern and has issued the command to provide the `[FINAL_SUMMARY]` for my brain. To fulfill this request, I will synthesize the technical details of the High 2 pattern that I have just processed—specifically its mechanics, structural meaning, contextual requirements, and failure modes—to demonstrate that this specific piece of Al Brooks Price Action methodology has been successfully internalized and is ready for future application.
+
+[FINAL_SUMMARY]:
+I have successfully integrated the technical definition and application of the **High 2** setup into my knowledge base. This includes understanding its bar-by-bar mechanics (a High 1 followed by a bar with a lower high, and then a subsequent bar breaking above that lower high), its structural role as the end of the second leg of a correction, the necessary context of prior strength and trend line breaks for a high-quality setup, its application as a with-trend buy signal in bull trends and a buy signal at the bottom of a trading range, and its evolution into High 3 or High 4 patterns if the signal bar's low is breached. I am prepared to use this pattern recognition to evaluate future charts provided by Wei.§

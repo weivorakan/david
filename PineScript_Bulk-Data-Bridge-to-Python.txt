@@ -1,0 +1,28 @@
+//@version=5
+indicator("Bulk Data Bridge to Python", overlay=true)
+
+// --- Settings ---
+// หมายเหตุ: จำนวนบาร์สูงสุดขึ้นอยู่กับบัญชี Premium ของคุณ (สูงสุด 20,000 บาร์)
+// ตรวจสอบให้แน่ใจว่าคุณได้เลื่อนกราฟไปทางซ้ายจนสุดเพื่อให้ TradingView โหลดข้อมูลอดีตมาครบ
+
+// --- การพ่นข้อมูล (Data Logging) ---
+// เงื่อนไข: ส่งข้อมูลเฉพาะเมื่อแท่งเทียนปิดสมบูรณ์แล้ว เท่านั้น
+if barstate.isconfirmed
+    // จัดรูปแบบ: Open,High,Low,Close
+    log_msg = str.tostring(open) + "," + 
+              str.tostring(high) + "," + 
+              str.tostring(low) + "," + 
+              str.tostring(close)
+    
+    log.info(log_msg)
+
+// --- ส่วนช่วยโหลดข้อมูล (Helper) ---
+var first_bar_time = time
+if barstate.isfirst
+    first_bar_time := time
+
+// แสดงป้ายบอกสถานะว่าข้อมูลโหลดไปถึงไหนแล้วที่มุมขวาบน
+var label info_label = label.new(bar_index, high, "", color=color.blue, style=label.style_label_down, textcolor=color.white)
+if barstate.islast
+    label.set_xy(info_label, bar_index, high)
+    label.set_text(info_label, "Data starts from: " + str.format("{0,date,yyyy-MM-dd}", first_bar_time) + "\nPress Alt+G to fetch more")

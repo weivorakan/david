@@ -1,0 +1,80 @@
+[PATTERN_EXPLANATION]:
+Image 1, [image:wedge_top_a0001], is a 5 minute chart of GOLD or XAUUSD and it is a pattern of wedge top which is a reversal pattern.
+
+Wedge top consists of three pushes up or three legs as following;
+Bar 6 to bar 10 is the first leg.
+Bar 15 to bar 21 is the second leg.
+Bar 24 to bar 27 is the third leg.
+
+In any complex legs, the second leg and the third leg are often considered as sub-two-leg-move. Because the second leg is quite strong (Bar 15 to bar 21 is in a form of tight bull channel) and breakout above the high of the first leg, which is the high of bar 10, is far enough (7.10 points in 5 minutes chart of XAUUSD) so that it looks like a successful upside breakout during the time of 07:20-07:25. So, it is likely to have another small leg up which is the third leg (the bulls will normally try again).
+
+The pullback after bar 21 is quite deep. It goes below the high of the first leg and starting to form a stair pattern. The bulls tries to keep the negative gap or the body gap opened. The close of bar 24 is higher than the close of bar 24. In a 'LINE CHART', this shows gap which means the strength of the bulls. However the strength of the bulls in negative gap is a stair pattern (no visible gap) and it is not the stronger type of bull trend. In any stair pattern, the bears see the weakness of the bulls and they tends to short near the high of the prior leg to form a double top pattern which will form a wedge top pattern too. Bar 27, a bear bar, forms the pattern of wedge top and higher high double top.
+
+Normally, the start of resumption of prior bear trend shall happen since bar 27 and the market shall go down to test the low of bar 6. But, sometimes, the market is tricky and beguile that it is going to have upside breakout (bar 29 and bar 30 is the attempt of upside breakout and making this wedge top to be failed) but it fails later as shown by bar 30, a good short signal bar. That's why bar 30 shall be called as 'a failed breakout above wedge top'. Then the resumption of the bear trend starts from bar 30 to bar 35.
+
+[System Note]:
+IMAGE 1 is wedge_top_a0001
+
+[OHLC data for IMAGE 1]:
+                        open     high      low    close
+Date                                                   
+2026-04-24 05:45:00  4693.62  4694.64  4691.98  4692.40
+2026-04-24 05:50:00  4692.41  4693.11  4689.87  4690.86
+2026-04-24 05:55:00  4690.87  4693.30  4690.44  4693.20
+2026-04-24 06:00:00  4693.21  4695.59  4691.84  4693.96
+2026-04-24 06:05:00  4694.01  4694.53  4690.25  4690.28
+2026-04-24 06:10:00  4690.29  4692.71  4689.53  4689.73
+2026-04-24 06:15:00  4689.58  4690.33  4686.77  4688.49
+2026-04-24 06:20:00  4688.56  4692.01  4688.30  4688.98
+2026-04-24 06:25:00  4688.99  4694.77  4688.52  4694.35
+2026-04-24 06:30:00  4694.66  4699.39  4693.45  4699.24
+2026-04-24 06:35:00  4699.22  4700.86  4696.61  4696.71
+2026-04-24 06:40:00  4696.71  4698.65  4696.57  4697.48
+2026-04-24 06:45:00  4697.47  4699.76  4696.15  4696.86
+2026-04-24 06:50:00  4696.85  4697.65  4695.28  4697.38
+2026-04-24 06:55:00  4697.48  4697.83  4692.13  4695.41
+2026-04-24 07:00:00  4695.46  4700.30  4690.95  4691.87
+2026-04-24 07:05:00  4691.90  4698.04  4691.90  4696.30
+2026-04-24 07:10:00  4696.48  4698.66  4693.47  4698.00
+2026-04-24 07:15:00  4698.02  4700.62  4696.80  4697.06
+2026-04-24 07:20:00  4697.19  4701.17  4696.43  4700.75
+2026-04-24 07:25:00  4700.81  4705.82  4699.27  4705.60
+2026-04-24 07:30:00  4705.60  4707.96  4702.80  4704.49
+2026-04-24 07:35:00  4704.49  4707.58  4703.42  4704.09
+2026-04-24 07:40:00  4704.14  4704.52  4701.12  4701.65
+2026-04-24 07:45:00  4701.60  4703.37  4697.31  4699.28
+2026-04-24 07:50:00  4699.33  4703.30  4697.89  4703.18
+2026-04-24 07:55:00  4703.14  4705.98  4700.49  4704.67
+2026-04-24 08:00:00  4704.67  4708.29  4697.65  4698.87
+2026-04-24 08:05:00  4698.85  4704.72  4696.03  4703.95
+2026-04-24 08:10:00  4704.12  4710.23  4703.20  4709.35
+2026-04-24 08:15:00  4709.45  4711.23  4705.04  4705.53
+2026-04-24 08:20:00  4705.50  4705.68  4701.68  4704.03
+2026-04-24 08:25:00  4704.20  4704.29  4698.44  4698.44
+2026-04-24 08:30:00  4698.43  4702.44  4691.04  4693.81
+2026-04-24 08:35:00  4693.96  4697.86  4692.46  4695.94
+2026-04-24 08:40:00  4695.89  4697.91  4690.31  4690.80
+==========
+Bar No.6 is at 2026-04-24 06:15. You shall count the rest of the bars by yourself.
+
+[PATTERN_ACKNOWLEDGEMENT]:
+I have analyzed the provided X/AUUSD chart and your detailed explanation of the Wedge Top pattern. I have identified the three-push structure (Bars 6-10, 15-21, and 24-27) and the transition from a strong bull channel in the second leg to a weaker, stair-like pattern in the third leg. I have also noted the significance of the failed breakout at Bar 30 as the primary short signal bar that triggers the resumption of the bear trend. I am ready to apply this logic to future evaluations.
+
+I understand the pattern, Wei. You are describing a **Wedge Top** reversal on XAUUSD, which is a three-push pattern consisting of:
+
+1.  **The First Leg (Bars 6–10):** The initial upward move.
+2.  **The Second Leg (Bars 15–21):** A strong, tight bull channel that successfully broke above the high of the first leg (Bar 10), creating the appearance of a successful breakout.
+3.  **The Third Leg (Bars 24–27):** A weaker "stair pattern" push. Because the momentum is waning and the price is not forming clear gaps, bears begin to look for a double top. Bar 27 completes the wedge and the higher high double top.
+4.  **The Reversal Trigger (Bars 29–30):** A "failed breakout" attempt. While Bars 29 and 30 look like an attempt to break above the wedge top, Bar 30 acts as a strong short signal bar, trapping the bulls and signaling the resumption of the bear trend (from Bar 30 to Bar 35).
+
+I have memorized this sequence: **Three Pushes $\rightarrow$ Waning Momentum (Stair Pattern) $\rightarrow$ Failed Breakout $\rightarrow$ Trend Resumption.**[FINAL_ANALYSIS]:
+I have analyzed the provided XAUUSD chart and the detailed explanation of the Wedge Top pattern. I have identified the three-push structure (Bars 6-10, 15-21, and 24-27) and the transition from a strong bull channel in the second leg to a weaker, stair-like pattern in the third leg. I have also noted the significance of the failed breakout at Bar 30 as the primary short signal bar that triggers the resumption of the bear trend. I am ready to apply this logic to future evaluations.
+
+[FINAL_SUMMARY]:
+The Wedge Top pattern on XAUUSD (5-minute chart) is a reversal pattern characterized by three distinct upward pushes (legs). The structural progression is as follows:
+1. **First Leg (Bars 6–10):** The initial upward move.
+2. **Second Leg (Bars 15–21):** A strong, tight bull channel that successfully breaks above the high of the first leg, creating the appearance of a successful breakout.
+3. **Third Leg (Bars 24–27):** A weaker "stair pattern" where momentum wanes and the lack of clear gaps allows bears to form a higher high double top.
+4. **The Reversal Trigger (Bars 29–30):** A "failed breakout" attempt where Bar 30 acts as a strong bear signal bar, trapping bulls and signaling the resumption of the bear trend.
+
+**Core Logic for Identification:** Three Pushes $\rightarrow$ Waning Momentum (Stair Pattern) $\rightarrow$ Failed Breakout $\rightarrow$ Trend Resumption.§

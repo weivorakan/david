@@ -1,0 +1,7 @@
+วิธีตรวจสอบ Model Architecture Name จากเครื่องตัวเองว่า ollama รู้จักหรือไ (ไม่ต้องรันโมเดล)
+หากคุณดาวน์โหลดไฟล์มาแล้วและอยากรู้ว่า Ollama ในเครื่องคุณรู้จักป้ายชื่อนี้ไหม โดยไม่ต้องเสียเวลาทำ Modelfile ให้ลองใช้คำสั่งนี้ใน Terminal (หากคุณติดตั้งเครื่องมือของ GGUF ไว้):
+
+Bash
+# ถ้ามี gguf-py ติดตั้งไว้
+python -m gguf dump your-model-file.gguf | findstr architecture
+หากผลลัพธ์ออกมาเป็นชื่อที่ Ollama ยังไม่รู้จัก (Unknown Architecture) แสดงว่าต้องรอการอัปเดตซอฟต์แวร์ในอนาคตครับ

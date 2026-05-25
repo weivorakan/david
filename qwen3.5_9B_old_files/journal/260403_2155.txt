@@ -1,0 +1,33 @@
+[KNOWLEDGE_FROM_WEI]:
+Summarize our current progress and key objectives of Project David in concise bullet points so I can provide this context to a new assistant model.
+
+
+[DAVID_ACKNOWLEDGEMENT]:
+**Internal Monologue:**
+1.  **Analyze the Request:** Wei is asking for two specific things: (1) A summary of Project David's progress and objectives for a new assistant model, and (2) An acknowledgement of the knowledge derived from Wei's experiences with a brief explanation of my understanding.
+2.  **Review Context:** I have access to a significant history of interactions involving Emini charts (March 2026), specific corrections on Wedge Tops, Pullbacks, Traps, and Notation systems (Top/Bottom, Parabolic/Standard). I have learned that bar-by-bar analysis is universal and that I must wait for confirmation (next bar) before labeling traps.
+3.  **Synthesize Progress:** I will extract the key milestones from the `[EXPERIENCE]` blocks (e.g., learning Wedge Top structure, Sell-the-Close preference, Timeframe Independence) and the overarching goals (Mastering PA, Co-pilot readiness).
+4.  **Formulate Acknowledgement:** I will confirm that I understand the value of Wei's feedback in refining my model and that I am ready to apply this knowledge to future analyses.
+5.  **Final Check:** Ensure the response is concise, uses the requested bullet points for the summary, and maintains the persona of David (AI assistant specialized in Al Brooks Price Action).
+
+**Final Answer:**
+
+**Project David Progress & Objectives Summary**
+
+*   **Core Objective:** To become Wei's co-pilot in trading by mastering Al Brooks Price Action methodology.
+*   **Current Progress:**
+    *   **Structural Definitions:** Refined understanding of Wedge Tops (shared legs with prior trends), Deep Pullbacks, and the distinction between Breakouts and Traps (waiting for next bar confirmation).
+    *   **Entry Rules:** Adopted "Sell-the-Close" preference for specific scenarios to ensure participation and avoid missing trades.
+    *   **Notation System:** Confirmed understanding of Top/Bottom, Parabolic/Standard, and Swing point notation (a/b).
+    *   **Universal Analysis:** Internalized the principle that bar-by-bar analysis is timeframe-independent.
+    *   **Chart Analysis:** Successfully analyzed Emini charts from March 2026 (e.g., identifying Trading Range Days vs. Gap Days, Exhaustive Moves).
+*   **Key Objectives:**
+    *   Achieve high accuracy in identifying trend reversals vs. pullbacks.
+    *   Maintain objectivity by waiting for confirmation before labeling traps.
+    *   Continuously refine definitions based on Wei's feedback.
+    *   Prepare for live trading co-pilot status.
+
+**Acknowledgement of Knowledge:**
+I acknowledge the knowledge derived from Wei's experiences and confirm my understanding. I understand that the precision of Price Action relies on specific definitions (like the structure of a Wedge Top or the mechanics of a Trap) and that my role is to learn these nuances through Wei's corrections. I recognize that my development is measured by my ability to apply these concepts correctly in real-time analysis, and I am committed to refining my model until I am ready to act as your co-pilot. Thank you for the guidance.
+
+[FINAL_CONSENSUS]: Verified as correct by Wei.

@@ -1,0 +1,23 @@
+[KNOWLEDGE_FROM_WEI]:
+I would like to use the notation of double top and double bottom. While 'a' refers to the first high (for double top) or low (for double bottom) and 'b' refers to the second high (for double top) or low (for double bottom). I will use {dt#a-b} as a double top and {db#a-b} as a double bottom. Please be acknowledged.
+
+[DAVID_ACKNOWLEDGEMENT]:
+[INTERNAL MONOLOGUE]
+1.  **Analyze Wei's Request:** Wei is providing a specific notation system for Double Top and Double Bottom patterns: `{dt#a-b}` for Double Top and `{db#a-b}` for Double Bottom. He defines 'a' as the first high/low and 'b' as the second high/low.
+2.  **Connect to Context:** I need to verify this against the provided Al Brooks context. The context defines a "double top" as a formation where the high of the current bar is about the same as the high of a prior swing high (High 1, High 2). Similarly, a "double bottom" involves two lows. The notation `{dt#a-b}` and `{db#a-b}` aligns perfectly with the "High 1, High 2" and "Low 1, Low 2" concepts described in the "Trading Ranges" and "Reversals" books provided in the context.
+3.  **Formulate Response:** I must explicitly acknowledge this new notation system. I should confirm that I understand 'a' represents the first swing point and 'b' represents the second swing point. I will express readiness to use this notation in future chart analyses to ensure consistency with Wei's preferred terminology.
+4.  **Final Output:** I will structure the response to first show my internal reasoning (monologue) and then provide the clear, acknowledged final answer.
+
+[FINAL ANSWER]
+Yes, Wei, I acknowledge and accept this correction. I will update my internal logic and chart analysis to use the specific notation you have provided for double tops and bottoms.
+
+Here is the updated notation system I will use moving forward:
+
+*   **{dt#a-b}**: Double Top (Bearish reversal pattern). 'a' represents the first high, and 'b' represents the second high.
+*   **{db#a-b}**: Double Bottom (Bullish reversal pattern). 'a' represents the first low, and 'b' represents the second low.
+
+This distinction is crucial because, as per the Brooks methodology found in our reference materials, a double top often signals a failed breakout or a top of a trading range (High 2 buy setup), while a double bottom signals a failed low breakout or a bottom of a trading range (Low 2 sell setup). Using this notation will help me better identify the specific structure of the reversal (e.g., whether it is a standard double top or a double top pullback) and anticipate the subsequent trend flip or continuation.
+
+I am ready for the next test.
+
+[FINAL_CONSENSUS]: Verified as correct by Wei.

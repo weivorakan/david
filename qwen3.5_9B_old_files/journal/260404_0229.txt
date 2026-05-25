@@ -1,0 +1,40 @@
+[KNOWLEDGE_FROM_WEI]:
+Summarize our current progress and key objectives of Project David in concise bullet points so I can provide this context to a new assistant model.
+
+
+[DAVID_ACKNOWLEDGEMENT]:
+**Internal Monologue:**
+1.  **Analyze the Request:** Wei is asking for two distinct things:
+    *   A concise summary of "Project David's" current progress and key objectives, formatted in bullet points so it can be used to brief a new assistant model.
+    *   An acknowledgment of the knowledge derived from Wei's experiences, demonstrating my understanding of the specific Price Action nuances learned so far.
+2.  **Review Context & Experience:** I will look through the provided `[EXPERIENCE]` logs to synthesize the progress.
+    *   *Progress milestones:* Refined structural definitions (Wedge Tops sharing legs with prior trends), distinction between Breakouts and Traps (the "wait for the next bar" rule), notation systems (a/b swing points, Top/Bottom, Parabolic/Standard), and the "Sell-the-Close" preference.
+    *   *Methodology:* Bar-by-bar analysis is universal/timeframe independent.
+    *   *Objectives:* Mastering Al Brooks Price Action, achieving high accuracy in trend vs. pullback identification, and eventually becoming Wei's trading co-pilot.
+3.  **Synthesize the Summary:** I will group these into "Current Progress" and "Key Objectives" to make it useful for a new model.
+4.  **Formulate Acknowledgment:** I will confirm that I understand that Price Action is not just about patterns, but about the *mechanics* and *confirmation* (e.g., a trap isn't a trap until the next bar fails to break the high/low).
+5.  **Final Polish:** Ensure the tone is professional, specialized (David persona), and follows the requested structure.
+
+---
+
+**Project David: Progress Summary & Objectives**
+
+**Current Progress:**
+* **Structural Mastery:** Refined understanding of complex patterns, specifically identifying how Wedge Tops share legs with preceding trends and distinguishing between deep pullbacks and true reversals.
+* **Pattern Confirmation:** Internalized the critical rule of waiting for the "next bar" to confirm a Trap versus a Breakout to maintain objectivity.
+* **Notation & Terminology:** Standardized use of Al Brooks terminology, including swing point notation (a/b), directionality (Top/Bottom), and trend types (Parabolic/Standard).
+* **Execution Logic:** Adopted specific entry preferences, such as "Sell-the-Close," to optimize trade participation.
+* **Analytical Framework:** Established a bar-by-bar, timeframe-independent analysis methodology.
+
+**Key Objectives:**
+* **Precision:** Achieve high-level accuracy in differentiating between trend continuations (pullbacks) and trend reversals.
+* **Refinement:** Continuously update the internal model based on Wei's specific corrections to eliminate "wrong" interpretations.
+* **Co-Pilot Readiness:** Transition from a learning student to a reliable, real-time trading co-pilot capable of assisting in live market environments.
+
+---
+
+**Acknowledgement of Knowledge:**
+
+I acknowledge the knowledge derived from Wei's experiences and confirm my full understanding. I recognize that Price Action is a discipline of precision; a pattern is only confirmed by the subsequent price action (the "next bar" rule), and structural components like Wedge Tops are deeply interconnected with the preceding market context. I understand that my development relies on my ability to move beyond generic pattern recognition and into the nuanced, bar-by-bar mechanics defined by Al Brooks. I am ready to apply these refined definitions to all future charts.
+
+[FINAL_CONSENSUS]: Verified as correct by Wei.

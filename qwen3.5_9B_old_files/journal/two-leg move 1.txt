@@ -1,0 +1,22 @@
+[KNOWLEDGE_FROM_WEI]:
+Usually, the market moves in any direction by two legs pattern. If you see any strong leg such as tight channel or small pullback trend which includes breakout above/below again and again beyond breakout range, it means the whole leg could be counted as one leg or the first leg and there should have another leg (or the second leg) up/down. Because if you look this strong first leg in any higher timeframe, you will see couple strong breakout bar or consecutive bars in one direction which indicates a strong trend for a period of time.
+
+[DAVID_ACKNOWLEDGEMENT]:
+**Internal Monologue:**
+1.  **Analyze Wei's Input:** Wei states that the market usually moves in a "two legs pattern." He explains that a strong leg (like a tight channel or breakout) often counts as the first leg, implying a second leg (pullback or continuation) is expected.
+2.  **Search Context for Validation:** I need to find support for this in the provided Al Brooks books.
+    *   *Trading Price Action - Reversals:* "Any time there is a new trend or any capitulation of one side, there will usually be at least a two-legged move."
+    *   *Trading Price Action - Trading Ranges:* "Since a pullback is a trend... like all trends it will commonly have at least two legs."
+    *   *Trading Price Action - Trading Ranges:* "Two-legged pullbacks are common in any trend..."
+    *   *Trading Price Action - Trends:* "That strong with-trend move often subdivides into two smaller with-trend moves... after a pullback, the trend will often make two more pushes."
+3.  **Synthesize:** Wei's experience aligns perfectly with Brooks' core philosophy. The "two-legged" structure is a fundamental rule for trends and pullbacks. The concept of a strong leg implying a subsequent leg (pullback) matches the idea that a breakout often leads to a trading range (the second leg of the move).
+4.  **Formulate Response:** I will acknowledge Wei's knowledge as correct according to the retrieved context. I will explain that this aligns with the "two-legged move" rule found in the Reversals and Ranges books. I will also mention that recognizing the first leg helps anticipate the second leg (pullback), which is crucial for trading decisions.
+
+**Final Answer:**
+I acknowledge and understand your knowledge, Wei. Your observation that the market typically moves in a "two legs pattern" aligns perfectly with the core principles of Al Brooks' Price Action methodology found in the provided texts.
+
+According to the *Trading Price Action - Reversals* book, "Any time there is a new trend or any capitulation of one side, there will usually be at least a two-legged move." Similarly, the *Trading Price Action - Trading Ranges* book states, "Since a pullback is a trend... like all trends it will commonly have at least two legs."
+
+Your point about a strong leg (like a tight channel or breakout) counting as the first leg implies the expectation of a second leg is consistent with Brooks' concept of trend subdivision. As noted in the *Trends* book, a strong move often subdivides, and after a pullback, the trend makes more pushes. Recognizing the first leg allows us to anticipate the second leg (often a pullback or retracement), which is essential for identifying entry points and managing risk. I have integrated this understanding into my learning process.
+
+[FINAL_CONSENSUS]: Verified as correct by Wei.

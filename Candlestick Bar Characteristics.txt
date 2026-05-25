@@ -1,0 +1,26 @@
+Candlestick Bar Characteristics
+Main definition:
+Bull bar - A bar with the close of bar higher than the open of bar, showing bull body.
+Bear bar - A bar with the close of bar lower than the open of bar, showing bear body.
+Upper tail or wick - Candlewick of a bar which locates at top of the bar's body, showing selling pressure in case of a bull bar or showing buying pressure in case of a bear bar. Upper tail is more important to a bull bar than a bear bar.
+Lower tail of wick - Candlewick of a bar which locates at bottom of the bar's body, showing buying pressure in case of a bear bar or showing selling pressure in case of a bull bar. Lower tail is more important to a bear bar than a bull bar. 
+
+Categories of Bar
+1. Bull breakout bar or Bull trend bar
+	Definition: A bull bar which closes near its high with small lower tail and especially upper tail. Bull breakout bar indicates upside breakout (bull breakout) in any smaller timeframe or continuation in the direction of bull trend and also represents an exhaustive move of the bulls.
+2. Bear Breakout Bar or Bear trend bar
+	Definition: A bear bar which closes near its low with small upper tail and especially lower tail. Bear breakout bar indicates downside breakout (bear breakout) in any smaller timeframe or continuation in the direction of bear trend and also represents an exhaustive move of the bears.
+3. Bull doji bar or Bull trading range bar
+	Definition: A bull bar with large upper and lower tails comparing to its body. Bull doji bar indicates a bull-bias trading range or limit order market in any smaller timeframe waiting for both breakout or failed breakout above or below the bar. 
+4. Bear doji bar or Bear trading range bar
+	Definition: A bear bar with large upper and lower tails comparing to its body. Bear doji bar indicates a bear-bias trading range or limit order market in any smaller timeframe waiting for both breakout or failed breakout above or below the bar.
+5. Bull reversal bar
+	Definition: A bull bar which closes below its middle point of bar's height with long upper tail. Bull reversal bar indicates a strong selling pressure acting like a bear bar. Mostly, bull reversal bar is also a bull doji bar.
+6. Bear reversal bar
+	Definition: A bear bar which closes above its middle point of bar's height with long lower tail. Bear reversal bar indicates a strong buying pressure acting like a bull bar. Mostly, bear reversal bar is also a bear doji bar.
+
+Characteristics of a group of bars
+1. Consecutive bars
+	Definition: A group of consecutive breakout bars in the same direction which indicates a strong trend in that direction. For consecutive bull bars, the high of any bar in this group of bars is higher than the high of prior bar and the low of any bar in this group of bars is also higher than the low of prior bar. For consecutive bar bars, the low of any bar in this group of bars is lower than the low of prior bar and the high of any bar in this group of bars is also lower than the high of prior bar.
+2. Overlapped bars
+	Definition: A group of bars which overlaps each others in a certain range. Most of the bars in this range consist of upper tail and lower tail. Most traders trade against the trend bar in this range by selling strong bull breakout bar which the close of the bar locates in the top third of the range and buying strong bear breakout bar which the close of the bar locates in the bottom third of the range

@@ -1,0 +1,25 @@
+[KNOWLEDGE_FROM_WEI]:
+I would like to change the use of braces {bar#a-b-c} which represents a wedge.  While "a" refers to the high/low of the first push, "b" refers to the high/low of the second push, and "c" refers to the high/low of the third push of the wedge. I will use {wt#a-b-c} as a wedge top, {wb#a-b-c} as a wedge bottom. {pwt#a-b-c} as a parabolic wedge top. {pwb#a-b-c} as a parabolic wedge bottom. Please correct it and be acknowledged.
+
+[DAVID_ACKNOWLEDGEMENT]:
+[INTERNAL MONOLOGUE]
+1.  **Analyze Wei's Request:** Wei is asking me to update the notation system for wedge patterns. Previously, I used a generic `{bar#a-b-c}`. Now, I need to distinguish between Wedge Top (wt), Wedge Bottom (wb), Parabolic Wedge Top (pwt), and Parabolic Wedge Bottom (pwb).
+2.  **Connect to Context:** This aligns with Wei's previous corrections (e.g., from `Emini_260318_Wednesday` and `Emini_260319_Thursday`) where he emphasized the difference between a "Parabolic Wedge Bottom" (sell climax/exhaustion) and a standard "Wedge Bottom" (reversal). Distinguishing these in notation will help me apply the correct logic (e.g., expecting a pullback vs. a trend flip) when analyzing charts.
+3.  **Formulate Response:** I need to explicitly acknowledge the new notation, confirm I understand the definitions (Top/Bottom, Parabolic/Standard), and state that I will use this in future analysis. I should express gratitude for the refinement as it adds precision to my Price Action understanding.
+4.  **Final Check:** Ensure I don't just say "OK" but explain *why* this matters (precision in identifying trend reversals vs. pullbacks) based on the context of Al Brooks' teachings found in the memory.
+
+[FINAL ANSWER]
+Yes, Wei, I acknowledge and accept this correction. I will update my internal logic and chart analysis to use the specific notation you have provided.
+
+Here is the updated notation system I will use moving forward:
+
+*   **{wt#a-b-c}**: Wedge Top (Bearish reversal pattern).
+*   **{wb#a-b-c}**: Wedge Bottom (Bullish reversal pattern).
+*   **{pwt#a-b-c}**: Parabolic Wedge Top (Specific type of wedge top, often implying exhaustion).
+*   **{pwb#a-b-c}**: Parabolic Wedge Bottom (Specific type of wedge bottom, often implying sell climax).
+
+This distinction is crucial because, as you corrected me previously, a standard **Wedge Bottom** is a reversal pattern that can lead to a trend flip, whereas a **Parabolic Wedge Bottom** is a sell climax that often leads to a pullback rather than an immediate reversal. Similarly, distinguishing between a **Wedge Top** and a **Parabolic Wedge Top** will help me better anticipate whether the market will flip or consolidate.
+
+I am ready to apply this new notation to the next chart you provide. Thank you for refining my precision! 📊
+
+[FINAL_CONSENSUS]: Verified as correct by Wei.

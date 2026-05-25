@@ -1,0 +1,11 @@
+# ปิด Flash Attention เพื่อความชัวร์ (บางสถาปัตยกรรมใหม่ยังไม่รองรับ)
+$env:OLLAMA_FLASH_ATTENTION="0"
+
+# ปิดการจอง VRAM เกินความจำเป็น
+$env:OLLAMA_GPU_OVERHEAD="0"
+
+# เปิดโหมด Debug เผื่อต้องดู Log เชิงลึกเพิ่ม
+$env:OLLAMA_DEBUG="1"
+
+# สั่ง Restart Ollama เพื่อรับค่าใหม่
+stop-process -name "ollama" -force

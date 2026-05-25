@@ -1,0 +1,44 @@
+[KNOWLEDGE_FROM_WEI]:
+IMAGE 1, [image: four consecutive bull bars], is an example of a set of four consecutive bull bars which is a strong bull breakout.
+
+For this picture, four consecutive bull bars, there are more than three consecutive bull bars, especially when each bar has short above-tail and short below-tail and, in this case, the fourth bar has bigger body size than the third bar (prior bar), there is a strong trend in any smaller timeframe of this chart and we should trade in the direction of bull trend more than trading against that trend. The probability is high, 60-70%, that the trend will go on even if there is any pullback after this chart. This chart will be better for the bulls if it occurs at early stage of bull trend, not late in bull trend which has plausible exhaustive character of the trend
+
+Normally, for other charts, when the third bar in three consecutive bull bars also has bigger boday than the second bull bar (prior bar), it could be translate as same as this chart but four consecutive bull bars shall be better than three consecutive bull bars.
+
+Moreover, this chart can also be applicable to the reading of four consecutive bear bars in the same aspect.
+
+[System Note]:
+IMAGE 1 is four consecutive bull bars
+
+[DAVID_ACKNOWLEDGEMENT]:
+[INTERNAL_MONOLOGUE]
+1.  **Analyze the Chart:** The image displays four consecutive white (bull) candlesticks. The bodies are relatively large, and the tails (shadows) are short. The fourth bar appears larger than the third, indicating increasing momentum.
+2.  **Verify with Context:** I need to cross-reference this visual with the provided Al Brooks excerpts.
+    *   *Trend Continuation:* The context states, "four consecutive bull bars shall be better than three consecutive bull bars." This matches the chart perfectly.
+    *   *Bar Characteristics:* The context notes, "The larger the bar, the more likely the breakout will succeed" and "The breakout bar has a large bull trend body and small tails or no tails." The chart shows large bodies and short tails.
+    *   *Trading Direction:* The context advises, "we should trade in the direction of bull trend more than trading against that trend."
+    *   *Signs of Weakness:* The context lists signs of weakness like "The bull bodies become smaller" or "Tails start to form." This chart does *not* show these yet; it shows strengthening bodies.
+3.  **Formulate Response:** I will confirm understanding ("Yes") and explain the chart reading using the specific terminology from the retrieved context (e.g., "bull trend bar," "consecutive bars," "large body," "small tails"). I will also mention the probability of continuation and the strategy (follow the trend, look for pullbacks).
+4.  **Final Check:** Ensure I don't contradict the user's explanation but rather validate it with the theoretical backing from the books.
+
+[RESPONSE]
+Yes, I understand the chart and the explanation provided.
+
+Based on the visual evidence and the Al Brooks Price Action principles retrieved from the context, here is my analysis:
+
+**1. Chart Structure:**
+The chart displays **four consecutive bull trend bars**. According to the theory, "four consecutive bull bars shall be better than three consecutive bull bars." This sequence indicates a strong, established trend.
+
+**2. Bar Characteristics:**
+*   **Body Size:** The bars have large bodies, and specifically, the fourth bar has a bigger body size than the third bar. The context states, "The larger the bar, the more likely the breakout will succeed." This increasing size suggests growing buying pressure.
+*   **Tails:** The bars have short above-tails and short below-tails. This aligns with the criteria for a strong breakout: "The breakout bar has a large bull trend body and small tails or no tails."
+*   **No Weakness:** We do not see signs of weakness yet (e.g., bodies becoming smaller, tails forming, or bear bodies), which would suggest a potential reversal or trading range.
+
+**3. Trading Implication:**
+*   **Direction:** The probability is high (60-70% as noted in your explanation) that the trend will continue. The strategy is to "trade in the direction of bull trend more than trading against that trend."
+*   **Entries:** If a pullback occurs, the context suggests looking for entries on "breakouts above the high of a prior bull trend bar."
+*   **Caution:** While the trend is strong now, we must remain vigilant for signs of exhaustion (like the bodies getting smaller or tails getting larger) which would signal a potential transition to a trading range or reversal.
+
+In summary, this is a classic example of a strong bull trend setup where the momentum is clearly on the side of the bulls. I am ready to apply this logic to further charts.
+
+[FINAL_CONSENSUS]: Verified as correct by Wei.

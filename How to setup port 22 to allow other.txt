@@ -1,0 +1,64 @@
+How to setup port 22 to allow other clients in private network
+เพื่อให้เครื่องคอมพิวเตอร์เครื่องอื่นในวงแลน (Private Network) สามารถเข้ามาดึงหรือแก้ไขไฟล์ผ่าน Port 22 (SSH/SFTP) ได้ คุณต้องทำการติดตั้งและเปิดใช้งาน OpenSSH Server ซึ่งเป็นฟีเจอร์ที่ติดมากับ Windows 10 และ 11 ครับ
+
+ทำตามขั้นตอนดังนี้ได้เลยครับ:
+
+1. ติดตั้ง OpenSSH Server
+โดยปกติ Windows จะติดตั้งเฉพาะ OpenSSH Client มาให้ แต่ตัว Server เราต้องกดติดตั้งเองครับ
+
+ไปที่ Settings > Apps > Optional features (หรือ System > Optional features ใน Windows 11)
+
+กดปุ่ม View features หรือ Add a feature
+
+พิมพ์ค้นหาคำว่า OpenSSH Server
+
+ติ๊กถูกแล้วกด Install จากนั้นรอจนติดตั้งเสร็จครับ
+
+2. ตั้งค่าให้ Service เริ่มทำงานอัตโนมัติ
+หลังจากติดตั้งแล้ว ตัว Service จะยังไม่ทำงาน คุณต้องไปสั่งให้มัน Start และทำงานทุกครั้งที่เปิดเครื่องครับ
+
+กดปุ่ม Windows + R พิมพ์ services.msc แล้วกด Enter
+
+เลื่อนหาคำว่า OpenSSH SSH Server
+
+คลิกขวาเลือก Properties
+
+ในช่อง Startup type ให้เปลี่ยนเป็น Automatic
+
+ในหัวข้อ Service status ให้กดปุ่ม Start
+
+กด OK
+
+3. เปิด Port 22 ที่ Windows Firewall
+ปกติแล้วการติดตั้ง OpenSSH Server จะสร้างกฎใน Firewall ให้โดยอัตโนมัติ แต่ควรเช็คเพื่อความชัวร์ครับ
+
+ไปที่ Control Panel > System and Security > Windows Defender Firewall
+
+เลือก Advanced settings (เมนูทางด้านซ้าย)
+
+คลิกที่ Inbound Rules แล้วหาชื่อ OpenSSH-Server-In-TCP
+
+ตรวจสอบว่ามีเครื่องหมายถูกสีเขียว (Enabled) และช่อง Action เป็น Allow the connection
+
+สำคัญ: ดับเบิลคลิกเข้าไปที่ Rule นั้น แล้วไปที่แถบ Advanced ตรวจสอบว่าในส่วนของ Profiles มีการติ๊กถูกที่ช่อง Private ไว้ครับ
+
+4. ตรวจสอบสิทธิ์การเข้าถึงไฟล์ (Permissions)
+เพื่อให้เครื่องอื่นสามารถ "แก้ไข" ไฟล์ได้ User ที่ใช้ Login เข้ามาต้องมีสิทธิ์ในโฟลเดอร์นั้นๆ ครับ
+
+Username: คือชื่อ User ของ Windows เครื่องนี้ (เช็คได้จากการพิมพ์ whoami ใน CMD)
+
+Password: ต้องใช้รหัสผ่านเดียวกับที่ใช้ Login เข้า Windows
+
+หมายเหตุ: SSH จะไม่ยอมให้ Login หากบัญชี Windows ของคุณ ไม่ได้ตั้งรหัสผ่าน (Blank Password) เพื่อความปลอดภัยครับ
+
+5. วิธีทดสอบการเชื่อมต่อ
+จากเครื่อง Notebook หรือเครื่องอื่นในวงแลน ให้ลองพิมพ์คำสั่งใน Command Prompt:
+
+ssh username@192.168.0.xxx (เปลี่ยนเป็น IP ของเครื่องที่คุณเพิ่งตั้งค่า)
+
+หากเชื่อมต่อได้ ระบบจะถามว่า "Are you sure you want to continue connecting (yes/no/[fingerprint])?" ให้ตอบ yes แล้วใส่รหัสผ่านครับ
+
+ข้อควรระวัง
+SFTP Root: เมื่อเชื่อมต่อเข้ามาแล้ว โดยปกติคุณจะเริ่มต้นที่โฟลเดอร์ C:\Users\YourUsername
+
+Public Network: หากคุณนำคอมพิวเตอร์ไปต่อ Wi-Fi นอกบ้าน (เช่น ร้านกาแฟ) และ Profile ของ Wi-Fi นั้นเป็น Public ตัว Firewall จะบล็อกพอร์ต 22 ทันทีเพื่อความปลอดภัย ซึ่งเป็นเรื่องที่ดีครับ

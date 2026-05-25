@@ -1,0 +1,43 @@
+(venv) PS C:\Users\weivo\OneDrive\เอกสาร\Price Action Trading\david> & "c:\Users\weivo\OneDrive\เอกสาร\Price Action Trading\david\venv\Scripts\python.exe" "c:/Users/weivo/OneDrive/เอกสาร/Price Action Trading/david/detect_ttr_v2.py"
+Symbol: XAUUSD
+Exchange: GO Markets
+Timeframe: 1m
+Start datetime: 2026-05-13 19:14
+End datetime: 2026-05-13 23:40
+version=2026-05-17-detect-ttr-v2-absolute-stair
+bars_loaded=267 start=2026-05-13 19:14:00 end=2026-05-13 23:40:00 resample=None
+mode=both selection=weighted prefer=balanced anchor_pivots=True
+raw_candidates=1966 selected_candidates=32
+Detected TTR / overlap range candidates: 32
+01) 2026-05-13 19:15:00 -> 2026-05-13 19:20:00 | bars=6 | absolute_overlap_ttr_candidate | score=0.726 | adj=0.690 | body_adj=0.254 | eff=0.307 | range_units=1.77 | slope_u/bar=-0.077 | new_ext=0.300 | H=4694.28 L=4689.12
+02) 2026-05-13 19:22:00 -> 2026-05-13 19:35:00 | bars=14 | stair_overlap_ttr_candidate | score=0.738 | adj=0.676 | body_adj=0.535 | eff=0.178 | range_units=4.36 | slope_u/bar=-0.167 | new_ext=0.154 | H=4690.69 L=4674.88
+03) 2026-05-13 19:36:00 -> 2026-05-13 19:39:00 | bars=4 | stair_overlap_ttr_candidate | score=0.708 | adj=0.702 | body_adj=0.658 | eff=0.433 | range_units=2.20 | slope_u/bar=-0.195 | new_ext=0.333 | H=4685.31 L=4677.23
+04) 2026-05-13 19:40:00 -> 2026-05-13 19:45:00 | bars=6 | stair_overlap_ttr_candidate | score=0.659 | adj=0.597 | body_adj=0.532 | eff=0.385 | range_units=1.97 | slope_u/bar=0.132 | new_ext=0.500 | H=4684.01 L=4677.83
+05) 2026-05-13 19:46:00 -> 2026-05-13 19:51:00 | bars=6 | absolute_overlap_ttr_candidate | score=0.740 | adj=0.608 | body_adj=0.623 | eff=0.123 | range_units=2.16 | slope_u/bar=0.127 | new_ext=0.300 | H=4685.59 L=4677.60
+06) 2026-05-13 19:52:00 -> 2026-05-13 19:56:00 | bars=5 | absolute_overlap_ttr_candidate | score=0.726 | adj=0.678 | body_adj=0.474 | eff=0.225 | range_units=1.77 | slope_u/bar=-0.128 | new_ext=0.375 | H=4682.89 L=4678.65
+07) 2026-05-13 20:01:00 -> 2026-05-13 20:05:00 | bars=5 | absolute_overlap_ttr_candidate | score=0.865 | adj=0.819 | body_adj=0.620 | eff=0.019 | range_units=2.15 | slope_u/bar=-0.085 | new_ext=0.375 | H=4690.64 L=4686.40
+08) 2026-05-13 20:06:00 -> 2026-05-13 20:10:00 | bars=5 | absolute_overlap_ttr_candidate | score=0.731 | adj=0.767 | body_adj=0.154 | eff=0.307 | range_units=1.90 | slope_u/bar=-0.141 | new_ext=0.500 | H=4689.58 L=4685.25
+09) 2026-05-13 20:11:00 -> 2026-05-13 20:17:00 | bars=7 | absolute_overlap_ttr_candidate | score=0.748 | adj=0.639 | body_adj=0.346 | eff=0.029 | range_units=2.33 | slope_u/bar=-0.055 | new_ext=0.417 | H=4691.31 L=4686.54
+10) 2026-05-13 20:18:00 -> 2026-05-13 20:25:00 | bars=8 | stair_overlap_ttr_candidate | score=0.640 | adj=0.552 | body_adj=0.392 | eff=0.314 | range_units=4.12 | slope_u/bar=0.138 | new_ext=0.286 | H=4694.68 L=4686.97
+11) 2026-05-13 20:39:00 -> 2026-05-13 20:49:00 | bars=11 | stair_overlap_ttr_candidate | score=0.686 | adj=0.633 | body_adj=0.243 | eff=0.077 | range_units=3.51 | slope_u/bar=-0.139 | new_ext=0.350 | H=4683.72 L=4669.31
+12) 2026-05-13 20:50:00 -> 2026-05-13 21:01:00 | bars=12 | stair_overlap_ttr_candidate | score=0.651 | adj=0.510 | body_adj=0.345 | eff=0.196 | range_units=3.34 | slope_u/bar=0.083 | new_ext=0.227 | H=4683.31 L=4670.04
+13) 2026-05-13 21:02:00 -> 2026-05-13 21:06:00 | bars=5 | absolute_overlap_ttr_candidate | score=0.772 | adj=0.704 | body_adj=0.403 | eff=0.189 | range_units=1.84 | slope_u/bar=0.005 | new_ext=0.500 | H=4679.17 L=4673.95
+14) 2026-05-13 21:07:00 -> 2026-05-13 21:13:00 | bars=7 | absolute_overlap_ttr_candidate | score=0.844 | adj=0.826 | body_adj=0.493 | eff=0.031 | range_units=2.23 | slope_u/bar=0.052 | new_ext=0.250 | H=4683.30 L=4674.95
+15) 2026-05-13 21:14:00 -> 2026-05-13 21:26:00 | bars=13 | stair_overlap_ttr_candidate | score=0.650 | adj=0.552 | body_adj=0.192 | eff=0.129 | range_units=4.33 | slope_u/bar=0.079 | new_ext=0.292 | H=4685.64 L=4673.48
+16) 2026-05-13 21:27:00 -> 2026-05-13 21:30:00 | bars=4 | absolute_overlap_ttr_candidate | score=0.811 | adj=0.767 | body_adj=0.276 | eff=0.117 | range_units=1.47 | slope_u/bar=0.051 | new_ext=0.667 | H=4685.49 L=4683.06
+17) 2026-05-13 21:31:00 -> 2026-05-13 21:36:00 | bars=6 | absolute_overlap_ttr_candidate | score=0.816 | adj=0.844 | body_adj=0.489 | eff=0.203 | range_units=2.43 | slope_u/bar=-0.004 | new_ext=0.300 | H=4691.16 L=4683.74
+18) 2026-05-13 21:37:00 -> 2026-05-13 21:42:00 | bars=6 | absolute_overlap_ttr_candidate | score=0.770 | adj=0.769 | body_adj=0.543 | eff=0.290 | range_units=1.86 | slope_u/bar=0.092 | new_ext=0.300 | H=4688.64 L=4684.95
+19) 2026-05-13 21:45:00 -> 2026-05-13 21:51:00 | bars=7 | absolute_overlap_ttr_candidate | score=0.790 | adj=0.680 | body_adj=0.594 | eff=0.004 | range_units=2.44 | slope_u/bar=-0.009 | new_ext=0.000 | H=4685.16 L=4677.06
+20) 2026-05-13 21:52:00 -> 2026-05-13 21:56:00 | bars=5 | stair_overlap_ttr_candidate | score=0.735 | adj=0.709 | body_adj=0.618 | eff=0.346 | range_units=2.31 | slope_u/bar=0.100 | new_ext=0.250 | H=4682.11 L=4678.90
+21) 2026-05-13 21:57:00 -> 2026-05-13 22:01:00 | bars=5 | absolute_overlap_ttr_candidate | score=0.743 | adj=0.651 | body_adj=0.304 | eff=0.134 | range_units=1.63 | slope_u/bar=0.052 | new_ext=0.375 | H=4683.47 L=4678.76
+22) 2026-05-13 22:03:00 -> 2026-05-13 22:06:00 | bars=4 | stair_overlap_ttr_candidate | score=0.662 | adj=0.485 | body_adj=0.271 | eff=0.002 | range_units=1.90 | slope_u/bar=-0.096 | new_ext=0.333 | H=4686.16 L=4681.82
+23) 2026-05-13 22:11:00 -> 2026-05-13 22:16:00 | bars=6 | absolute_overlap_ttr_candidate | score=0.856 | adj=0.792 | body_adj=0.627 | eff=0.042 | range_units=1.65 | slope_u/bar=-0.010 | new_ext=0.100 | H=4689.27 L=4685.43
+24) 2026-05-13 22:17:00 -> 2026-05-13 22:31:00 | bars=15 | absolute_overlap_ttr_candidate | score=0.687 | adj=0.624 | body_adj=0.416 | eff=0.299 | range_units=3.18 | slope_u/bar=0.151 | new_ext=0.321 | H=4692.05 L=4684.95
+25) 2026-05-13 22:41:00 -> 2026-05-13 22:53:00 | bars=13 | absolute_overlap_ttr_candidate | score=0.692 | adj=0.716 | body_adj=0.303 | eff=0.340 | range_units=3.18 | slope_u/bar=-0.160 | new_ext=0.250 | H=4700.41 L=4694.59
+26) 2026-05-13 22:54:00 -> 2026-05-13 22:59:00 | bars=6 | absolute_overlap_ttr_candidate | score=0.786 | adj=0.706 | body_adj=0.588 | eff=0.075 | range_units=2.23 | slope_u/bar=-0.053 | new_ext=0.300 | H=4698.17 L=4694.49
+27) 2026-05-13 23:00:00 -> 2026-05-13 23:05:00 | bars=6 | absolute_overlap_ttr_candidate | score=0.776 | adj=0.724 | body_adj=0.553 | eff=0.152 | range_units=2.40 | slope_u/bar=0.038 | new_ext=0.300 | H=4699.67 L=4694.96
+28) 2026-05-13 23:06:00 -> 2026-05-13 23:13:00 | bars=8 | absolute_overlap_ttr_candidate | score=0.708 | adj=0.710 | body_adj=0.400 | eff=0.310 | range_units=2.53 | slope_u/bar=0.102 | new_ext=0.214 | H=4703.04 L=4698.06
+29) 2026-05-13 23:14:00 -> 2026-05-13 23:16:00 | bars=3 | absolute_overlap_ttr_candidate | score=0.753 | adj=0.674 | body_adj=0.466 | eff=0.134 | range_units=1.44 | slope_u/bar=0.058 | new_ext=0.500 | H=4703.85 L=4700.75
+30) 2026-05-13 23:17:00 -> 2026-05-13 23:20:00 | bars=4 | absolute_overlap_ttr_candidate | score=0.824 | adj=0.772 | body_adj=0.232 | eff=0.059 | range_units=1.56 | slope_u/bar=-0.015 | new_ext=0.333 | H=4702.64 L=4698.66
+31) 2026-05-13 23:24:00 -> 2026-05-13 23:28:00 | bars=5 | stair_overlap_ttr_candidate | score=0.636 | adj=0.670 | body_adj=0.378 | eff=0.496 | range_units=2.02 | slope_u/bar=0.267 | new_ext=0.125 | H=4710.24 L=4703.36
+32) 2026-05-13 23:29:00 -> 2026-05-13 23:34:00 | bars=6 | stair_overlap_ttr_candidate | score=0.660 | adj=0.768 | body_adj=0.391 | eff=0.500 | range_units=3.24 | slope_u/bar=-0.324 | new_ext=0.300 | H=4709.90 L=4702.23

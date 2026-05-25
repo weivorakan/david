@@ -1,0 +1,12 @@
+Using Shortcut Command in Ubuntu
+เขียนไฟล์ .bashrc
+nano ~/.bashrc
+alias mt4='WINEPREFIX=~/.mt4 wine "~/.mt4/drive_c/Program Files/[BROKER_MT4_FOLDER]/terminal.exe"'
+
+หลังจากนั้นบันทึกไฟล์ (Ctrl+O > Enter > Ctrl+X) แล้วรันคำสั่ง
+source ~/.bascrc
+
+จากนี้ไป: ทุกครั้งที่อยู่ใน Openbox แค่เปิด xterm แล้วพิมพ์คำสั่ง mt4 โปรแกรมก็จะรันขึ้นมาทันที
+
+
+alias mt4='WINEPREFIX=~/.mt4 wine "~/.mt4/drive_c/Program Files (x86)/GO Markets MT4/terminal.exe"'

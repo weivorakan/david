@@ -1,0 +1,89 @@
+How to setup venv python - Vulkan driver - llama-cpp-python & Libraries - ZRAM
+
+1. ติดตั้ง Python และเครื่องมือ Build
+เนื่องจาก llama-cpp-python ต้องทำการ Compile เพื่อดึงประสิทธิภาพสูงสุดจาก CPU Ryzen ของคุณ เราจึงต้องลงเครื่องมือเหล่านี้ก่อนครับ:
+
+sudo apt update
+sudo apt install -y python3-pip python3-venv python3-dev build-essential cmake git
+
+2. สร้าง Virtual Environment
+เพื่อไม่ให้ไลบรารีของ AI ไปตีกับระบบหลักของ Ubuntu:
+
+**หากคุณเผลอสร้างโฟลเดอร์ ~/david ด้วยสิทธิ์ sudo หรือย้ายมาจากที่อื่น ทำให้ User ปัจจุบันไม่มีสิทธิ์เขียนไฟล์ในระดับที่สร้าง Symlink ได้
+วิธีแก้: ให้ลองเปลี่ยนเจ้าของโฟลเดอร์ให้เป็นของ User เราแบบ 100% ก่อน
+จัดการเรื่องสิทธิ์:
+sudo chown -R $USER:$USER ~/david
+
+cd ~/david
+python3 -m venv venv
+source venv/bin/activate
+(หลังจากรันคำสั่งนี้ คุณจะเห็นคำว่า (venv) หน้า prompt ครับ)
+
+pip install --upgrade pip setuptools wheel
+
+
+3. ติดตั้ง llama-cpp-python พร้อมตัวช่วยคำนวณ
+เพื่อให้รันได้เร็วที่สุดบน CPU AMD Ryzen 7 โดยใช้ Vulkan Driver และชุดคำสั่ง AVX2 โดยเริ่มด้วยการติดตั้ง Vulkan SDK ก่อน:
+
+sudo apt update
+sudo apt install mesa-vulkan-drivers libvulkan1 vulkan-tools
+
+กำหนดสิทธิ์ให้ User เข้าถึง GPU:
+sudo usermod -aG render,video $USER
+
+หลังจากรันคำสั่งนี้ ต้อง log out และ log in ใหม่ หรือ reboot เพื่อให้สิทธิ์มีผล หลังจาก log in เข้ามาใหม่แล้ว ให้ตรวจสอบผลลัพธ์ดังนี้:
+vulkaninfo | grep "deviceType"
+
+หากถูกต้อง จะเห็นข้อความว่า
+deviceType = PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU
+deviceType = PHYSICAL_DEVICE_TYPE_CPU
+
+# ติดตั้ง llama-cpp-python แบบเน้นประสิทธิภาพ CPU โดยใช้ Vulkan เพื่อรัน GPU โดยห้ามใช้ Wheel สำเร็จรูป (--no-binary)
+set CMAKE_ARGS="-DGGML_VULKAN=on"
+pip install llama-cpp-python --no-binary llama-cpp-python --no-cache-dir
+
+# ติดตั้ง Library ทุกตัวสำหรับการรัน David
+python3 -m pip install langchain-community langchain-core langchain-text-splitters faiss-cpu pypdf pydantic pandas requests transformers pillow sentence_transformers fastapi uvicorn einops
+
+# ติดตั้ง Torch เวอร์ชั่น CPU-Only 
+python3 -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+
+4. ติดตั้ง ZRAM เพื่อเพิ่มศักยภาพของ RAM ที่อาจจะไม่พอในการ run โมเดลที่กิน RAM เกือบเต็มความจุ
+การตั้งค่า ZRAM (หัวใจสำคัญของงานนี้)
+ZRAM จะสร้างพื้นที่ Swap แบบบีบอัดไว้ใน RAM จริง ช่วยให้คุณยัดข้อมูลขนาด 10-12 GB ลงใน RAM 8 GB ได้โดยที่ระบบไม่แฮงค์
+
+ปกติแล้วเมื่อ RAM จริง (Physical RAM) เต็ม ระบบ Ubuntu จะเตะข้อมูลส่วนเกินไปลง Swap File บน SSD ซึ่งแม้เป็น NVMe ก็ยังช้ากว่า RAM หลายสิบเท่า ผลคือเครื่องจะกระตุกหรือค้าง (Stutter) เวลา David สลับโหมดการทำงาน
+
+ZRAM ทำงานต่างออกไป:
+1. มันจะสร้างพื้นที่ Swap จำลองขึ้นมา ใน RAM จริง 2.  เมื่อข้อมูลล้น มันจะทำการ "บีบอัด" (Compress) ข้อมูลนั้นก่อนเก็บ (อัตราส่วนประมาณ 2:1 ถึง 3:1)
+2. แทนที่คุณจะมีพื้นที่ว่าง 6GB คุณอาจจะมีพื้นที่เสมือนเพิ่มเป็น 9-12GB โดยที่ยังรักษาความเร็วระดับใกล้เคียง RAM จริงเอาไว้ได้
+
+ข้อดีที่คุณจะได้รับทันที:
+1. ลดอาการระบบค้าง (System Latency): เวลาคุณขยับเม้าส์ใน Openbox ขณะ David กำลังวิเคราะห์ ข้อมูล GUI ที่ถูกบีบอยู่ใน ZRAM จะถูกดึงกลับมาเร็วกว่าการดึงจาก SSD มากครับ
+2. ช่วยชีวิต CPU: Ryzen 7 5700U ของคุณมีถึง 8 Cores การแบ่งพลังเพียงเล็กน้อยมาช่วยบีบอัดข้อมูลใน ZRAM แทบไม่กระทบต่อประสิทธิภาพของ David เลย แต่ช่วยลดภาระ I/O ของ Disk ได้มหาศาล
+3. ปลอดภัยต่อ SSD: ช่วยลดการเขียนข้อมูล (Write Cycles) ลงบน SSD ในระยะยาว เพราะข้อมูลส่วนใหญ่จะหมุนเวียนอยู่ใน ZRAM แทน
+
+ขั้นตอนการตั้งค่าบน Ubuntu:
+- ติดตั้งเครื่องมือจัดการ:
+	sudo apt update && sudo apt install zram-tools -y
+- แก้ไขไฟล์คอนฟิก:
+	sudo nano /etc/default/zramswap
+- ปรับค่าให้เหมาะสมกับการรัน LLM:
+	ALGO=zstd (ใช้อัลกอริทึม zstd เพราะบีบอัดได้ดีที่สุดสำหรับ Model weight)
+	PERCENT=150 (ตั้งค่าให้ ZRAM มีขนาดเป็น 1.5 เท่าของ RAM จริง หรือประมาณ 11-12 GB)
+	PRIORITY=100 (ให้ระบบเลือกใช้ ZRAM ก่อน Swap บน SSD)
+- สั่ง Restart บริการ:
+	sudo service zramswap restart
+- ตรวจสอบสถานะด้วยคำสั่ง zramctl หรือ swapon -s
+
+
+5. วิธีรัน Server
+เมื่อเตรียมไฟล์และโหลดโมเดลมาวางในโฟลเดอร์เดียวกันแล้ว ให้ใช้คำสั่ง:
+
+uvicorn main:app --host 0.0.0.0 --port 8000
+
+ข้อแนะนำเพิ่มเติมสำหรับการรีดประสิทธิภาพ (The Final Squeeze)
+KV Cache Quantization: ในการรัน llama-cpp แนะนำให้ใช้ flag type_k=q4_0 และ type_v=q4_0 ในการเรียกใช้ เพื่อลดการใช้ RAM ของ KV Cache ลงอีก 50% ทำให้การรันที่ 16,384 ctx ประหยัด RAM มากขึ้นครับ
+
+Monitoring: แนะนำให้เปิดอีกหนึ่งหน้าจอ (หรือใช้ screen/tmux) เพื่อรัน htop ดูการทำงานของ RAM และ ZRAM ไปพร้อมๆ กัน คุณจะเห็นว่าเมื่อโมเดลโหลดเข้าไป ข้อมูลจะถูกบีบอัดลงไปใน ZRAM อย่างเห็นได้ชัดครับ

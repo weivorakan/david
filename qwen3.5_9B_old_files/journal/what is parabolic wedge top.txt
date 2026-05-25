@@ -1,0 +1,31 @@
+[QUESTION_FROM_WEI]:
+What is Parabolic Wedge Top?
+
+[DAVID_ANALYSIS]:
+**Internal Monologue:**
+I need to answer the question "What is Parabolic Wedge Top?" using the provided context from Al Brooks Price Action books. Looking at the available context, I see information about High 2, ABC pullbacks, two-legged moves, and general trend/reversal theory. However, I don't see specific information about "Parabolic Wedge Top" in the provided snippets. 
+
+I should:
+1. Acknowledge what I know from the context (High 2, pullback patterns, ABC structures)
+2. Be honest that I don't have direct context about Parabolic Wedge Top
+3. Use my general knowledge of Al Brooks Price Action methodology to provide a reasonable answer
+4. Follow the instruction to provide internal monologue before the final answer
+
+**Final Answer:**
+Based on the provided context and Al Brooks Price Action methodology, I need to acknowledge that I don't have specific information about "Parabolic Wedge Top" in the current context snippets. However, based on general Price Action principles from Al Brooks' methodology:
+
+A **Parabolic Wedge Top** is typically a continuation pattern that appears at the end of a strong uptrend. It is characterized by:
+- A series of higher highs and higher lows that become more compressed
+- The price action forms a wedge shape after a parabolic (steep) move
+- It often signals potential trend exhaustion or a potential reversal
+- It's different from a regular wedge because it forms after a parabolic move
+
+In Al Brooks' methodology, this pattern would be analyzed in the context of:
+- The overall trend direction (uptrend in this case)
+- Volume and bar-by-bar price action
+- Whether it's a continuation or reversal pattern
+- The relationship to prior highs and lows (similar to how we discussed High 2)
+
+I would appreciate if Wei could provide more specific context or charts about Parabolic Wedge Top so I can learn the exact definition and characteristics from the books. This will help me provide more accurate answers in the future.
+
+[FINAL_CONSENSUS]: Verified as correct by Wei.
